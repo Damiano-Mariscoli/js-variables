@@ -13,11 +13,20 @@
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
+const fullName = firstName + ' ' + lastName;
 
-const fullName = null;
 console.log(fullName); // Output: "Jane Smith"
+
+
+const name = 'Damiano'
+const number = 12
+const text = 'testo'
+const bool = true
+
+console.log(name , number , text, bool)
+
 
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
-const numberOfLettersInAlphabet = null;
+const numberOfLettersInAlphabet = alphabet.length;
 console.log(numberOfLettersInAlphabet); // Output: 26
